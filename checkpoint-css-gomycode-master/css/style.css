@@ -1,0 +1,300 @@
+body{
+    Background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                    Linear-gradient(127deg, black, black 70.71%),
+                    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    margin : 0 ; /* delete space ly deeyer bel page*/
+}
+
+/*  navbar code for all pages*/
+#ulNav{
+    margin-left:23%;
+}
+
+#ulNav>li{
+    margin-left:70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+#ulNav>li>a{
+    text-decoration: none;
+    color:white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ulNav>li>a:hover {
+    color:red !important;
+}
+.navbar{
+    background-color: transparent !important;
+    border-color:transparent !important;
+}
+.logo{
+    height: 100%;
+    display: flex; /*no effects but we need to set it so we can make some flexible operations (kima the one bellow)*/
+    align-items: center;/* to center the element vertically (img) try to remove these lines and see the difference */
+}
+/*courses page*/
+p {
+    margin: 0 0 10px;
+}
+
+.header{
+    height: 450px;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+    background-position: center;
+    box-sizing: border-box;
+}
+h1{
+    color:white !important;
+}
+
+.header h1{
+    margin-top: 0;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative; /*
+        Un élément positionné de façon relative est un élément dont la propriété 
+        de position calculée est relative. Dans ce cas, les propriétés top ou bottom 
+        indiquent le décalage vertical à appliquer et left ou right indiquent 
+        le décalage horizontal. (https://developer.mozilla.org/fr/docs/Web/CSS/position)
+    */
+    top: 40%; /*remove position:relative and this property will not have any effect*/
+    text-align: center;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+
+.courses{
+    margin-top: 5%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.row img{
+    margin-right: 4% ;
+} 
+
+.courses-form{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.courses-form h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+#mytext
+{
+    max-width: 300px;
+    max-height: 75px;
+    
+}
+
+.buttons{
+    margin-bottom: 20px;
+}
+.course1{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    display:inline-block;
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png');
+    background-size: cover;
+    overflow:hidden;
+
+}
+
+.btnCourses{
+    /* margin-top:120px; */
+    display:none;
+    
+}
+.image{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.course2{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+
+
+
+.course3{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses3{
+    margin-top:120px;
+    display:none;
+}
+
+
+
+.course4{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses4{
+    margin-top:120px;
+    display:none;
+}
+
+
+.course5{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses5{
+    margin-top:120px;
+    display:none;
+}
+
+
+.course6{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses6{
+    margin-top:120px;
+    display:none;
+}
+
+.course7{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses7{
+    margin-top:120px;
+    display:none;
+}
+
+.course8{
+    width:250px;
+    height:250px;
+   
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses8{
+    margin-top:120px;
+    display:none;
+}
+
+.course9{
+    width:250px;
+    height:250px;
+    
+    margin-right: 4% ;
+    /* display:inline-block; */
+    background-image:url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png');
+    background-size: cover;
+    overflow:hidden;
+}
+
+.btnCourses9{
+    margin-top:120px;
+    display:none;
+}
+
+
+
+#modal{
+    display:none;
+}
+
+
+
+
+
+/* Contact */ 
+
+.input-groupe{
+    text-align: center;
+    color: white;
+}
+
+.input-contact{
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+    height: 20px;
+    border-radius:5px ;
+    color: black;
+}
+
+.contact-form{
+    margin: 30px 0 ;
+}
+
+.btn{
+    width: 80px;
+    height: 29px;
+    margin-top: 10px;
+    border-radius: 3px ;
+    background-color: #337ab7 ;
+    border-color: #337ab7;
+    color: white;
+}
